@@ -1,0 +1,109 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    font-family:sans-serif ;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, rgba(184, 4, 255, 0.52), rgba(52, 133, 255, 0.808)), url('images/5bd40b059051f-wallpaper-preview.jpg');
+    background-size: cover;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.contact-form{
+    color: #ff5722;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    text-align: center;
+}
+
+.contact-form h1{
+    font-size: 32px;
+}
+
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out ;
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+
+input{
+    height: 45px;
+}
+
+.submit{
+    background: #ff5722;
+    border: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background: #a8a7a7;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 100px;
+    height: 500px;
+}
+
+.loginForm form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    width: 500px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+label{
+    width: 25em;
+    padding-bottom: 15px;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.loginForm h2{
+    font-size: 42px;
+    color: #ff5722;
+    padding: 50px;
+}
+
+.logOut {
+        background: #ff5722;
+        border: transparent;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        border-radius: 5px;
+}
